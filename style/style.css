@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    line-height: 1;
+    font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(255, 255, 255);
+}
+
+header {
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(161, 161, 161);
+}
+
+#turn {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 550;
+}
+
+#container {
+	display: grid;
+	font: 20px;
+	width: 33%;
+	aspect-ratio: 1 / 1;
+	box-sizing: border-box;
+	background-color: rgb(0, 0, 0);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	margin: auto;
+	gap: 2px;
+}
+
+.square {
+	display: flex;
+	box-sizing: border-box;
+	gap: 2px;
+	background-color: rgb(91, 93, 245);
+	font-size: 6em;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	line-height: .7em;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.button {
+	display: flex;
+    justify-content: center;
+  	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#restart {
+	margin: auto;
+	font-size: 3em;
+	border-radius: 5px;
+}
