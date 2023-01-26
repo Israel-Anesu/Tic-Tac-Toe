@@ -71,7 +71,7 @@ const gameBoard = (() => {
                         turn.innerText = "Player X's turn";
                     }
                 }
-            }
+            } 
         })
     });  
 })();
